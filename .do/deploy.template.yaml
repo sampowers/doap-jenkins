@@ -1,8 +1,8 @@
 spec:
-  name: sample-dockerfile
+  name: jenkins
   services:
   - dockerfile_path: Dockerfile
     git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-dockerfile.git
+      repo_clone_url: https://github.com/sampowers/doap-jenkins.git
     name: sample-dockerfile

@@ -1,8 +1,8 @@
-name: sample-dockerfile
+name: jenkins
 services:
 - dockerfile_path: Dockerfile
   github:
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-dockerfile
-  name: sample-dockerfile
+    repo: sampowers/doap-jenkins
+  name: jenkins
